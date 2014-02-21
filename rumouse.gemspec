@@ -6,7 +6,10 @@ Gem::Specification.new do |s|
   s.description = "Cross-platform solution for simulating mouse events"
   s.authors     = ["Maxim Kostuchenko"]
   s.email       = "kstmaks@gmail.com"
-  s.files       = ["lib/rumouse.rb", "lib/darwin.rb"]
+  s.files       = ["lib/rumouse.rb", 
+                   "lib/darwin.rb",
+                   "lib/win32.rb",
+                   "lib/x11.rb"]
   s.homepage    = "https://github.com/kosmaks/rumouse"
 
   s.add_runtime_dependency "ffi", "~> 1.9.3"
