@@ -1,3 +1,5 @@
+require 'rbconfig'
+
 class RuMouse
   def press x, y, button = 1
     raise NotImplementedError
@@ -27,8 +29,13 @@ class RuMouse
   end
 end
 
-require './rumouse/darwin'
+os = RbConfig::CONFIG['host_os']
 
-mouse = RuMouse.new
-mouse.move 0, 0
-mouse.click 10, 10
+case os
+when /mswin|msys|mingw|cygwin|bccwin|wince|emc/
+  require './lib/x11.rb'
+when /darwin|mac os/
+  require './lib/darwin.rb'
+when /linux|bsd/
+  require './lib/x11.rb'
+end

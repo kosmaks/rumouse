@@ -6,7 +6,6 @@ Gem::Specification.new do |s|
   s.description = "Cross-platform solution for simulating mouse events"
   s.authors     = ["Maxim Kostuchenko"]
   s.email       = "kstmaks@gmail.com"
-  s.files       = ["lib/rumouse.rb",
-                   "lib/darwin.rb"]
+  s.files       = ["lib/rumouse.rb", "lib/darwin.rb"]
   s.homepage    = "https://github.com/kosmaks/rumouse"
 end
