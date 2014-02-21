@@ -1,5 +1,5 @@
 require 'rumouse'
 
 mouse = RuMouse.new
-mouse.move 0, 0
-mouse.click 10, 10
+mouse.move 100, 100
+#mouse.click 10, 10
