@@ -8,4 +8,5 @@ Gem::Specification.new do |s|
   s.email       = "kstmaks@gmail.com"
   s.files       = ["lib/rumouse.rb",
                    "lib/darwin.rb"]
+  s.homepage    = "https://github.com/kosmaks/rumouse"
 end
