@@ -33,9 +33,9 @@ os = RbConfig::CONFIG['host_os']
 
 case os
 when /mswin|msys|mingw|cygwin|bccwin|wince|emc/
-  require './lib/win32.rb'
+  require 'win32.rb'
 when /darwin|mac os/
-  require './lib/darwin.rb'
+  require 'darwin.rb'
 when /linux|bsd/
-  require './lib/x11.rb'
+  require 'x11.rb'
 end
