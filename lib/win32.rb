@@ -28,12 +28,14 @@ class RuMouse
   end
 
   def press x, y, button = 1
+    move x, y
     User32::mouse_event User32::MOUSEEVENTF_ABSOLUTE | button_code(button, true),
                         x, y,
                         0, nil
   end
 
   def release x, y, button = 1
+    move x, y
     User32::mouse_event User32::MOUSEEVENTF_ABSOLUTE | button_code(button, false),
                         x, y,
                         0, nil
