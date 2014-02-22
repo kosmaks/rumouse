@@ -1,6 +1,8 @@
 RuMouse
 -------
 
+[![Gem Version](https://badge.fury.io/rb/rumouse.png)](http://badge.fury.io/rb/rumouse)
+
 This is port of PyMouse to ruby. Cross-platform library to simulate mouse events.
 
 Installation
