@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "rumouse"
-  s.version     = "0.0.4"
+  s.version     = "0.0.5"
   s.date        = "2014-02-22"
   s.summary     = "Port of pythons' PyMouse."
   s.description = "Cross-platform solution for simulating mouse events"
