@@ -24,6 +24,8 @@ Usage
 -----
 
 ```ruby
+require 'rumouse'
+
 mouse = RuMouse.new
 
 # click at 10x10
@@ -39,7 +41,7 @@ mouse.press 10, 10
 mouse.release 100, 100
 
 # get current position
-mouse.position
+puts mouse.position
 
 # get screen size
 puts mouse.screen_size 
