@@ -33,9 +33,9 @@ os = RbConfig::CONFIG['host_os']
 
 case os
 when /mswin|msys|mingw|cygwin|bccwin|wince|emc/
-  require 'win32.rb'
+  require 'rumouse/win32.rb'
 when /darwin|mac os/
-  require 'darwin.rb'
+  require 'rumouse/darwin.rb'
 when /linux|bsd/
-  require 'x11.rb'
+  require 'rumouse/x11.rb'
 end
