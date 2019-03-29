@@ -20,6 +20,10 @@ or add to your Gemfile:
 gem 'rumouse'
 ```
 
+### Requirements
+
+On Linux, you must have libXtst, e.g., `apt install libxtst-dev`.
+
 Usage
 -----
 
