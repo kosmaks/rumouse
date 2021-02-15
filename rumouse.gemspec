@@ -14,5 +14,5 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/kosmaks/rumouse"
   s.license     = "MIT"
 
-  s.add_runtime_dependency "ffi", "~> 1.9.3"
+  s.add_runtime_dependency "ffi", ">= 1.9.3"
 end
